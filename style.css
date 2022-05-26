@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Playfair Display', serif; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap');
+
+header {
+  width: 100%;
+}
+
+.h-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 0.5rem;
+}
+
+.h-menu {
+  background-color: #9767A9;
+  color: white;
+  padding: 0.5rem 1rem;
+  display: none;
+}
+
+.h-ul {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.li-default {
+  text-align: end;
+  width: 120px;
+  margin-right: 0.7rem;
+}
+
+.li-spc {
+  text-align: center;
+  width: 200px;
+}
+
+.li-mov {
+  text-align: center;
+  width: 120px;
+}
+
+.h-ul a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #9767A9;
+  font-weight: 500;
+  letter-spacing: -0.54px;
+  font-size: 1.12rem;
+}
+
+.h-ul a:hover {
+  font-weight: 800;
+}
+
+.h-div {
+  display: flex;
+  gap: 2rem;
+}
+
+.h-input {
+  background-image: url('assets/header_02.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 5px;
+  background-size: 10%;
+  border-radius: 50px;
+  border: #9767A9 solid;
+}
+
+.h-input::placeholder {
+  padding-left: 1.6rem;
+  color: #9767A9;
+}
+
+.h-sociais {
+  display: flex;
+  gap: 1rem;
+}
+
+.top-box {
+  background-image: url('assets/main\ [0].png');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.top-txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding-top: 10rem;
+}
+
+.top-txt h2 {
+  color: white;
+  font-size: 6.2rem;
+  width: 400px;
+  font-family: 'Playfair Display', serif;
+}
+
+.top-txt p {
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  width: 400px;
+}
