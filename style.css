@@ -11,6 +11,9 @@
 /* HEADER */
 header {
   width: 100%;
+  position: fixed;
+  z-index: 99999;
+  background-color: white;
 }
 
 .h-box {
@@ -20,9 +23,6 @@ header {
   width: 85vw;
   margin: 0 auto;
   padding: 0.4vw 0;
-  position: fixed;
-  z-index: 99999;
-  background-color: white;
 }
 
 .h-logo img {
@@ -360,38 +360,6 @@ header {
   display: flex;
   flex-direction: column;
 }
-
-/* .mobile_01{
-  width: 40vw;
-}
-
-.mobile_03, .mobile_04{
-  width: 18vw;
-}
-
-.mobile_05{
-  width: 38vw;
-}
-
-.mobile_02{
-  width: 80vw;
-}
-
-.mobile_08, .mobile_10{
-  width: 22vw;
-  height: 50vw;
-  margin-bottom: 2vw;
-}
-
-.mobile_09, .mobile_07{
-  width: 22vw;
-  height: 22vw;
-}
-
-.mobile_06{
-  width: 32vw;
-  height: 74.5vw;
-} */
 
 .mobile_01{
   width: 148px;
